@@ -58,16 +58,5 @@
 
 ### Application endpoints
 
-| Método  | Rota                                                   | Descrição                                    |
-|---------|--------------------------------------------------------|----------------------------------------------|
-| POST    | /auth/register                                         | Cria um usuário                              |
-| POST    | /auth/login                                            | Faz login de um usuário                      |
-| GET     | /user                                                  | Retorna o usuário autenticado                |
-| GET     | /guilds                                                | Retorna todos os servidores disponíveis      |
-| POST    | /guilds                                                | Cria um novo servidor                        |
-| DELETE  | /guilds/{guildId}                                      | Deleta um servidor                           |
-| GET     | /guilds/{guildId}                                      | Lista as salas de um servidor                |
-| POST    | /guilds/{guildId}/channels                             | Cria um novo canal dentro de um servidor     |
-| GET     | /guilds/{guildId}/channels/{channelId}                 | Entra em um canal e começa a escutar as mensagens |
-| POST    | /guilds/{guildId}/channels/{channelId}/messages        | Envia uma mensagem para um canal específico  |
-| DELETE  | /guilds/{guildId}/channels/{channelId}/messages/{messageId} | Deleta uma mensagem em um canal específico   |
+> [!NOTE]
+> To see the documentation of the API, you can run the api with `bun dev` and then open [http://localhost:3333/](http://localhost:3333/).
