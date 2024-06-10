@@ -32,6 +32,7 @@
 ## Requirements
 
 **User:**
+- name
 - username
 - email
 - password
