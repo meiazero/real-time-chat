@@ -1,0 +1,1 @@
+export { authorRoute } from "./author";
