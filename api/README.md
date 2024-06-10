@@ -1,16 +1,13 @@
 ## Features
 
-### User
+### Authentication
 
-- [ ] It should be able to create a user;
+- [ ] It should be able to create a account
+- [ ] It should be able to authenticate using email & password;
+- [ ] It should be able to authenticate using token;
 - [ ] It should be able to get a user;
 - [ ] It should be able to update a user;
 - [ ] It should be able to delete a user;
-- [ ] It should be able to get a list of users;
-
-### Authentication
-
-- [ ] It should be able to authenticate using email & password;
 
 ### Guild
 
