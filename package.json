@@ -1,0 +1,23 @@
+{
+  "name": "fastify-nextjs-turbo",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "db:up": "docker compose -f docker/docker-compose.yaml up || docker-compose -f docker/docker-compose.yaml up",
+    "db:up-detached": "docker compose -f docker/docker-compose.yaml up -d || docker-compose -f docker/docker-compose.yaml up -d",
+    "db:down": "docker compose -f docker/docker-compose.yaml down || docker-compose -f docker/docker-compose.yaml down"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/tsconfig": "workspace:*",
+    "prettier": "^3.2.5",
+    "turbo": "2.0.1"
+  },
+  "packageManager": "pnpm@9.1.3",
+  "engines": {
+    "node": ">=20.11.0"
+  }
+}
